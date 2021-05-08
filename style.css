@@ -5,6 +5,10 @@
   color: #142432;
 }
 
+body {
+  padding: 1rem;
+}
+
 .framemainbg table.areadescription td.mainheader {
   font-size: 2rem;
 }
