@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+* {
+  font-family: "Itim", cursive;
+  font-size: 1rem;
+  color: #142432;
+}
 
+.framemainbg table.areadescription td.mainheader {
+  font-size: 2rem;
+}
 
 /*# sourceMappingURL=style.css.map */
