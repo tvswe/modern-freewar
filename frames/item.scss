@@ -1,5 +1,7 @@
 .frameitembg {
   display: grid;
+  grid-template-columns: 30% 1fr 30%;
+  grid-template-rows: repeat(4, 20px) repeat(4, 80px);
   grid-template-areas:
     "nickname nickname nickname"
     "aka_battlep aka_battlep aka_battlep"
@@ -11,10 +13,18 @@
     "attackw money defensew"
     "status status status"
     "line line line"
+    "fastspell fastspell fastspell"
+    "lastfastspell lastfastspell lastfastspell"
+    "openinv openinv openinv"
+    "filter filter filter"
   ;
+  padding: 0;
 
-  .listcaption {
-    grid-area: nickname;
+  #toplpheader {
+
+    + .listcaption {
+      grid-area: nickname;
+    }
   }
 
   #listrow_aka_battlep {
@@ -67,6 +77,22 @@
     + div {
       grid-area: line;
     }
+  }
+
+  #fastspell {
+    grid-area: fastspell;
+  }
+
+  .small {
+    grid-area: lastfastspell;
+
+    + .listcaption {
+      grid-area: openinv;
+    }
+  }
+
+  #filterrow {
+    grid-area: filter;
   }
 
   .listitemrow {
