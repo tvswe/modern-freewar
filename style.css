@@ -9,8 +9,26 @@ body {
   padding: 1rem;
 }
 
+.frameitembg .listitemrow br {
+  display: none;
+}
+.frameitembg .listitemrow .medium {
+  display: inline-flex;
+  font-size: 0;
+}
+.frameitembg .listitemrow .medium a {
+  font-size: 0;
+}
+
 .framemainbg table.areadescription td.mainheader {
   font-size: 2rem;
+}
+
+.framemapbg {
+  padding: 0 1rem;
+}
+.framemapbg p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

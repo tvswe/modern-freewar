@@ -1,3 +1,16 @@
 .frameitembg {
+  .listitemrow {
+    br {
+      display: none;
+    }
 
+    .medium {
+      display: inline-flex;
+      font-size: 0;
+
+      a {
+        font-size: 0;
+      }
+    }
+  }
 }
