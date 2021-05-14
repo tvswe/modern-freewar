@@ -9,6 +9,17 @@ body {
   padding: 1rem;
 }
 
+.frameitembg .listitemrow .itemamount {
+  display: block;
+  float: left;
+}
+.frameitembg .listitemrow .itemamount:after {
+  content: " ";
+  white-space: pre;
+}
+.frameitembg .listitemrow .itemname {
+  display: block;
+}
 .frameitembg .listitemrow br {
   display: none;
 }

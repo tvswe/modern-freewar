@@ -1,5 +1,19 @@
 .frameitembg {
   .listitemrow {
+    .itemamount {
+      display: block;
+      float: left;
+
+      &:after {
+        content: " ";
+        white-space: pre;
+      }
+    }
+
+    .itemname {
+      display: block;
+    }
+
     br {
       display: none;
     }
