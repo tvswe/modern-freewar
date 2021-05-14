@@ -9,6 +9,52 @@ body {
   padding: 1rem;
 }
 
+.frameitembg {
+  display: grid;
+  grid-template-areas: "nickname nickname nickname" "aka_battlep aka_battlep aka_battlep" "char_mission char_mission char_mission" "clan clan clan" ". int ." ". neck ." "attackp lifep defensep" "attackw money defensew" "status status status" "line line line";
+}
+.frameitembg .listcaption {
+  grid-area: nickname;
+}
+.frameitembg #listrow_aka_battlep {
+  grid-area: aka_battlep;
+}
+.frameitembg #listrow_char_mission {
+  grid-area: char_mission;
+}
+.frameitembg #listrow_clan {
+  grid-area: clan;
+}
+.frameitembg #listrow_lifep {
+  grid-area: lifep;
+}
+.frameitembg #listrow_money {
+  grid-area: money;
+}
+.frameitembg #listrow_int {
+  grid-area: int;
+}
+.frameitembg #listrow_attackp {
+  grid-area: attackp;
+}
+.frameitembg #listrow_attackw {
+  grid-area: attackw;
+}
+.frameitembg #listrow_defensep {
+  grid-area: defensep;
+}
+.frameitembg #listrow_defensew {
+  grid-area: defensew;
+}
+.frameitembg #listrow_neck {
+  grid-area: neck;
+}
+.frameitembg #listrow_status {
+  grid-area: status;
+}
+.frameitembg #listrow_status + div {
+  grid-area: line;
+}
 .frameitembg .listitemrow .itemamount {
   display: block;
   float: left;

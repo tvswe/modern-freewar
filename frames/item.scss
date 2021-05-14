@@ -1,4 +1,74 @@
 .frameitembg {
+  display: grid;
+  grid-template-areas:
+    "nickname nickname nickname"
+    "aka_battlep aka_battlep aka_battlep"
+    "char_mission char_mission char_mission"
+    "clan clan clan"
+    ". int ."
+    ". neck ."
+    "attackp lifep defensep"
+    "attackw money defensew"
+    "status status status"
+    "line line line"
+  ;
+
+  .listcaption {
+    grid-area: nickname;
+  }
+
+  #listrow_aka_battlep {
+   grid-area: aka_battlep;
+  }
+
+  #listrow_char_mission {
+    grid-area: char_mission;
+  }
+
+  #listrow_clan {
+    grid-area: clan;
+  }
+
+  #listrow_lifep {
+    grid-area: lifep;
+  }
+
+  #listrow_money {
+    grid-area: money;
+  }
+
+  #listrow_int {
+    grid-area: int;
+  }
+
+  #listrow_attackp {
+    grid-area: attackp;
+  }
+
+  #listrow_attackw {
+    grid-area: attackw;
+  }
+
+  #listrow_defensep {
+    grid-area: defensep;
+  }
+
+  #listrow_defensew {
+    grid-area: defensew;
+  }
+
+  #listrow_neck {
+    grid-area: neck;
+  }
+
+  #listrow_status {
+    grid-area: status;
+
+    + div {
+      grid-area: line;
+    }
+  }
+
   .listitemrow {
     .itemamount {
       display: block;
