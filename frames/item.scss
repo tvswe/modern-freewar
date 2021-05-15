@@ -19,6 +19,7 @@
     "filter filter filter"
   ;
   padding: 0;
+  text-align: center;
 
   #toplpheader {
 
@@ -41,34 +42,42 @@
 
   #listrow_lifep {
     grid-area: lifep;
+    background-image: url('/img/body_top.png');
   }
 
   #listrow_money {
     grid-area: money;
+    background-image: url('/img/body_bottom.png');
   }
 
   #listrow_int {
     grid-area: int;
+    background-image: url('/img/head.png');
   }
 
   #listrow_attackp {
     grid-area: attackp;
+    background-image: url('/img/arm_left.png');
   }
 
   #listrow_attackw {
     grid-area: attackw;
+    background-image: url('/img/hand_left.png');
   }
 
   #listrow_defensep {
     grid-area: defensep;
+    background-image: url('/img/arm_right.png');
   }
 
   #listrow_defensew {
     grid-area: defensew;
+    background-image: url('/img/hand_right.png');
   }
 
   #listrow_neck {
     grid-area: neck;
+    background-image: url('/img/neck.png');
   }
 
   #listrow_status {

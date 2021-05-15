@@ -15,6 +15,7 @@ body {
   grid-template-rows: repeat(4, 20px) repeat(4, 80px);
   grid-template-areas: "nickname nickname nickname" "aka_battlep aka_battlep aka_battlep" "char_mission char_mission char_mission" "clan clan clan" ". int ." ". neck ." "attackp lifep defensep" "attackw money defensew" "status status status" "line line line" "fastspell fastspell fastspell" "lastfastspell lastfastspell lastfastspell" "openinv openinv openinv" "filter filter filter";
   padding: 0;
+  text-align: center;
 }
 .frameitembg #toplpheader + .listcaption {
   grid-area: nickname;
@@ -30,27 +31,35 @@ body {
 }
 .frameitembg #listrow_lifep {
   grid-area: lifep;
+  background-image: url("/img/body_top.png");
 }
 .frameitembg #listrow_money {
   grid-area: money;
+  background-image: url("/img/body_bottom.png");
 }
 .frameitembg #listrow_int {
   grid-area: int;
+  background-image: url("/img/head.png");
 }
 .frameitembg #listrow_attackp {
   grid-area: attackp;
+  background-image: url("/img/arm_left.png");
 }
 .frameitembg #listrow_attackw {
   grid-area: attackw;
+  background-image: url("/img/hand_left.png");
 }
 .frameitembg #listrow_defensep {
   grid-area: defensep;
+  background-image: url("/img/arm_right.png");
 }
 .frameitembg #listrow_defensew {
   grid-area: defensew;
+  background-image: url("/img/hand_right.png");
 }
 .frameitembg #listrow_neck {
   grid-area: neck;
+  background-image: url("/img/neck.png");
 }
 .frameitembg #listrow_status {
   grid-area: status;
