@@ -21,6 +21,10 @@
   padding: 0;
   text-align: center;
 
+  .listrow {
+    margin: 0;
+  }
+
   #toplpheader {
 
     + .listcaption {
@@ -44,48 +48,56 @@
     grid-area: lifep;
     background: url("/modern-freewar/img/body_top.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
 
   #listrow_money {
     grid-area: money;
     background: url("/modern-freewar/img/body_bottom.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
 
   #listrow_int {
     grid-area: int;
     background: url("/modern-freewar/img/head.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
 
   #listrow_attackp {
     grid-area: attackp;
     background: url("/modern-freewar/img/arm_left.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
 
   #listrow_attackw {
     grid-area: attackw;
     background: url("/modern-freewar/img/hand_left.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
 
   #listrow_defensep {
     grid-area: defensep;
     background: url("/modern-freewar/img/arm_right.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
 
   #listrow_defensew {
     grid-area: defensew;
     background: url("/modern-freewar/img/hand_right.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
 
   #listrow_neck {
     grid-area: neck;
     background: url("/modern-freewar/img/neck.png") no-repeat center;
     background-size: cover;
+    color: white;
   }
 
   #listrow_status {

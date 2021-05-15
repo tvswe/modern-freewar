@@ -17,6 +17,9 @@ body {
   padding: 0;
   text-align: center;
 }
+.frameitembg .listrow {
+  margin: 0;
+}
 .frameitembg #toplpheader + .listcaption {
   grid-area: nickname;
 }
@@ -33,41 +36,49 @@ body {
   grid-area: lifep;
   background: url("/modern-freewar/img/body_top.png") no-repeat center;
   background-size: cover;
+  color: white;
 }
 .frameitembg #listrow_money {
   grid-area: money;
   background: url("/modern-freewar/img/body_bottom.png") no-repeat center;
   background-size: cover;
+  color: white;
 }
 .frameitembg #listrow_int {
   grid-area: int;
   background: url("/modern-freewar/img/head.png") no-repeat center;
   background-size: cover;
+  color: white;
 }
 .frameitembg #listrow_attackp {
   grid-area: attackp;
   background: url("/modern-freewar/img/arm_left.png") no-repeat center;
   background-size: cover;
+  color: white;
 }
 .frameitembg #listrow_attackw {
   grid-area: attackw;
   background: url("/modern-freewar/img/hand_left.png") no-repeat center;
   background-size: cover;
+  color: white;
 }
 .frameitembg #listrow_defensep {
   grid-area: defensep;
   background: url("/modern-freewar/img/arm_right.png") no-repeat center;
   background-size: cover;
+  color: white;
 }
 .frameitembg #listrow_defensew {
   grid-area: defensew;
   background: url("/modern-freewar/img/hand_right.png") no-repeat center;
   background-size: cover;
+  color: white;
 }
 .frameitembg #listrow_neck {
   grid-area: neck;
   background: url("/modern-freewar/img/neck.png") no-repeat center;
   background-size: cover;
+  color: white;
 }
 .frameitembg #listrow_status {
   grid-area: status;
