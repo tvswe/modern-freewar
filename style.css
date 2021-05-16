@@ -12,7 +12,7 @@ body {
 .frameitembg {
   display: grid;
   grid-template-columns: 30% 1fr 30%;
-  grid-template-rows: repeat(4, 20px) repeat(4, 80px);
+  grid-template-rows: repeat(4, 20px) 80px 80px 164px 125px;
   grid-template-areas: "nickname nickname nickname" "aka_battlep aka_battlep aka_battlep" "char_mission char_mission char_mission" "clan clan clan" ". int ." ". neck ." "attackp lifep defensep" "attackw money defensew" "status status status" "line line line" "fastspell fastspell fastspell" "lastfastspell lastfastspell lastfastspell" "openinv openinv openinv" "filter filter filter";
   padding: 0;
   text-align: center;
@@ -22,6 +22,7 @@ body {
 }
 .frameitembg #toplpheader + .listcaption {
   grid-area: nickname;
+  margin: 0;
 }
 .frameitembg #listrow_aka_battlep {
   grid-area: aka_battlep;
