@@ -92,12 +92,15 @@ body {
 }
 .frameitembg .small {
   grid-area: lastfastspell;
+  margin: 0;
 }
 .frameitembg .small + .listcaption {
   grid-area: openinv;
+  margin: 0;
 }
 .frameitembg #filterrow {
   grid-area: filter;
+  margin: 0;
 }
 .frameitembg .listitemrow .itemamount {
   display: block;

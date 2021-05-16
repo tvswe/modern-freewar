@@ -115,14 +115,17 @@
 
   .small {
     grid-area: lastfastspell;
+    margin: 0;
 
     + .listcaption {
       grid-area: openinv;
+      margin: 0;
     }
   }
 
   #filterrow {
     grid-area: filter;
+    margin: 0;
   }
 
   .listitemrow {
