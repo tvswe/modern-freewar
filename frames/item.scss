@@ -34,9 +34,9 @@
     grid-area: lifep;
     background: url("/modern-freewar/img/body_top.png") no-repeat center;
     background-size: contain;
-    color: white;
     order: 4;
     flex-basis: 40%;
+    height: 154px;
   }
 
   #listrow_money {
@@ -46,6 +46,7 @@
     color: white;
     order: 7;
     flex-basis: 40%;
+    height: 111px;
   }
 
   #listrow_int {
@@ -53,7 +54,8 @@
     background: url("/modern-freewar/img/head.png") no-repeat center;
     background-size: contain;
     color: white;
-    order: 1
+    order: 1;
+    height: 52px;
   }
 
   #listrow_attackp {
@@ -63,6 +65,7 @@
     color: white;
     order: 3;
     flex-basis: 30%;
+    background-position-x: right;
   }
 
   #listrow_attackw {
@@ -72,6 +75,7 @@
     color: white;
     order: 6;
     flex-basis: 30%;
+    background-position-x: right;
   }
 
   #listrow_defensep {
@@ -81,6 +85,7 @@
     color: white;
     order: 5;
     flex-basis: 30%;
+    background-position-x: left;
   }
 
   #listrow_defensew {
@@ -90,6 +95,7 @@
     color: white;
     order: 8;
     flex-basis: 30%;
+    background-position-x: left;
   }
 
   #listrow_neck {
@@ -98,39 +104,44 @@
     background-size: contain;
     color: white;
     order: 2;
+    height: 52px;
+  }
+
+  #listrow_ring {
+    order: 48;
   }
 
   #listrow_status {
-    grid-area: status;
     order: 49;
 
     + div {
-      grid-area: line;
       order: 50;
+
+      + .listcaption {
+        order: 51;
+      }
     }
   }
 
   #fastspell {
-    grid-area: fastspell;
+
   }
 
   .small {
-    grid-area: lastfastspell;
     margin: 0;
 
     + .listcaption {
-      grid-area: openinv;
       margin: 0;
     }
   }
 
   #filterrow {
-    order: 51;
+    order: 52;
     margin: 0;
   }
 
   .listitemrow {
-    order: 52;
+    order: 53;
 
     .itemamount {
       display: block;

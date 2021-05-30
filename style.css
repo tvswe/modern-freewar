@@ -37,9 +37,9 @@ body {
   grid-area: lifep;
   background: url("/modern-freewar/img/body_top.png") no-repeat center;
   background-size: contain;
-  color: white;
   order: 4;
   flex-basis: 40%;
+  height: 154px;
 }
 .frameitembg #listrow_money {
   grid-area: money;
@@ -48,6 +48,7 @@ body {
   color: white;
   order: 7;
   flex-basis: 40%;
+  height: 111px;
 }
 .frameitembg #listrow_int {
   grid-area: int;
@@ -55,6 +56,7 @@ body {
   background-size: contain;
   color: white;
   order: 1;
+  height: 52px;
 }
 .frameitembg #listrow_attackp {
   grid-area: attackp;
@@ -63,6 +65,7 @@ body {
   color: white;
   order: 3;
   flex-basis: 30%;
+  background-position-x: right;
 }
 .frameitembg #listrow_attackw {
   grid-area: attackw;
@@ -71,6 +74,7 @@ body {
   color: white;
   order: 6;
   flex-basis: 30%;
+  background-position-x: right;
 }
 .frameitembg #listrow_defensep {
   grid-area: defensep;
@@ -79,6 +83,7 @@ body {
   color: white;
   order: 5;
   flex-basis: 30%;
+  background-position-x: left;
 }
 .frameitembg #listrow_defensew {
   grid-area: defensew;
@@ -87,6 +92,7 @@ body {
   color: white;
   order: 8;
   flex-basis: 30%;
+  background-position-x: left;
 }
 .frameitembg #listrow_neck {
   grid-area: neck;
@@ -94,32 +100,32 @@ body {
   background-size: contain;
   color: white;
   order: 2;
+  height: 52px;
+}
+.frameitembg #listrow_ring {
+  order: 48;
 }
 .frameitembg #listrow_status {
-  grid-area: status;
   order: 49;
 }
 .frameitembg #listrow_status + div {
-  grid-area: line;
   order: 50;
 }
-.frameitembg #fastspell {
-  grid-area: fastspell;
+.frameitembg #listrow_status + div + .listcaption {
+  order: 51;
 }
 .frameitembg .small {
-  grid-area: lastfastspell;
   margin: 0;
 }
 .frameitembg .small + .listcaption {
-  grid-area: openinv;
   margin: 0;
 }
 .frameitembg #filterrow {
-  order: 51;
+  order: 52;
   margin: 0;
 }
 .frameitembg .listitemrow {
-  order: 52;
+  order: 53;
 }
 .frameitembg .listitemrow .itemamount {
   display: block;
