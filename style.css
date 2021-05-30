@@ -10,18 +10,18 @@ body {
 }
 
 .frameitembg {
-  display: grid;
-  grid-template-columns: 30% 1fr 30%;
-  grid-template-rows: repeat(4, 20px) 80px 80px 164px 125px;
-  grid-template-areas: "nickname nickname nickname" "aka_battlep aka_battlep aka_battlep" "char_mission char_mission char_mission" "clan clan clan" ". int ." ". neck ." "attackp lifep defensep" "attackw money defensew" "status status status" "line line line" "fastspell fastspell fastspell" "lastfastspell lastfastspell lastfastspell" "openinv openinv openinv" "filter filter filter";
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
-  text-align: center;
 }
-.frameitembg .listrow {
+.frameitembg > * {
   margin: 0;
+  flex-basis: 100%;
+  overflow: hidden;
+  order: 0;
 }
 .frameitembg #toplpheader + .listcaption {
-  grid-area: nickname;
+  order: 0;
   margin: 0;
 }
 .frameitembg #listrow_aka_battlep {
@@ -36,50 +36,60 @@ body {
 .frameitembg #listrow_lifep {
   grid-area: lifep;
   background: url("/modern-freewar/img/body_top.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   color: white;
 }
 .frameitembg #listrow_money {
   grid-area: money;
   background: url("/modern-freewar/img/body_bottom.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   color: white;
 }
 .frameitembg #listrow_int {
   grid-area: int;
   background: url("/modern-freewar/img/head.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   color: white;
+  order: 1;
 }
 .frameitembg #listrow_attackp {
   grid-area: attackp;
   background: url("/modern-freewar/img/arm_left.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   color: white;
+  order: 3;
+  flex-basis: 30%;
 }
 .frameitembg #listrow_attackw {
   grid-area: attackw;
   background: url("/modern-freewar/img/hand_left.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   color: white;
+  order: 6;
+  flex-basis: 30%;
 }
 .frameitembg #listrow_defensep {
   grid-area: defensep;
   background: url("/modern-freewar/img/arm_right.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   color: white;
+  order: 5;
+  flex-basis: 30%;
 }
 .frameitembg #listrow_defensew {
   grid-area: defensew;
   background: url("/modern-freewar/img/hand_right.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   color: white;
+  order: 8;
+  flex-basis: 30%;
 }
 .frameitembg #listrow_neck {
   grid-area: neck;
   background: url("/modern-freewar/img/neck.png") no-repeat center;
-  background-size: cover;
+  background-size: contain;
   color: white;
+  order: 2;
 }
 .frameitembg #listrow_status {
   grid-area: status;
