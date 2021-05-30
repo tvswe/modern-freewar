@@ -35,6 +35,8 @@
     background: url("/modern-freewar/img/body_top.png") no-repeat center;
     background-size: contain;
     color: white;
+    order: 4;
+    flex-basis: 40%;
   }
 
   #listrow_money {
@@ -42,6 +44,8 @@
     background: url("/modern-freewar/img/body_bottom.png") no-repeat center;
     background-size: contain;
     color: white;
+    order: 7;
+    flex-basis: 40%;
   }
 
   #listrow_int {
@@ -98,9 +102,11 @@
 
   #listrow_status {
     grid-area: status;
+    order: 49;
 
     + div {
       grid-area: line;
+      order: 50;
     }
   }
 
@@ -119,11 +125,13 @@
   }
 
   #filterrow {
-    grid-area: filter;
+    order: 51;
     margin: 0;
   }
 
   .listitemrow {
+    order: 52;
+
     .itemamount {
       display: block;
       float: left;

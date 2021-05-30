@@ -38,12 +38,16 @@ body {
   background: url("/modern-freewar/img/body_top.png") no-repeat center;
   background-size: contain;
   color: white;
+  order: 4;
+  flex-basis: 40%;
 }
 .frameitembg #listrow_money {
   grid-area: money;
   background: url("/modern-freewar/img/body_bottom.png") no-repeat center;
   background-size: contain;
   color: white;
+  order: 7;
+  flex-basis: 40%;
 }
 .frameitembg #listrow_int {
   grid-area: int;
@@ -93,9 +97,11 @@ body {
 }
 .frameitembg #listrow_status {
   grid-area: status;
+  order: 49;
 }
 .frameitembg #listrow_status + div {
   grid-area: line;
+  order: 50;
 }
 .frameitembg #fastspell {
   grid-area: fastspell;
@@ -109,8 +115,11 @@ body {
   margin: 0;
 }
 .frameitembg #filterrow {
-  grid-area: filter;
+  order: 51;
   margin: 0;
+}
+.frameitembg .listitemrow {
+  order: 52;
 }
 .frameitembg .listitemrow .itemamount {
   display: block;
