@@ -160,4 +160,45 @@ body {
   margin: 0;
 }
 
+.framemenubg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+.framemenubg > div:first-child {
+  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.framemenubg > div:first-child > a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: transparent none no-repeat center center;
+  color: transparent;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 1px;
+}
+.framemenubg > div:first-child > a[href="menu.php?reload=true"] {
+  background-image: url("/modern-freewar/img/icons/reload.png");
+}
+.framemenubg > div:first-child > a[href="statsmap.php"] {
+  background-image: url("/modern-freewar/img/icons/map.png");
+}
+.framemenubg > div:first-child > a[href="quests.php"] {
+  background-image: url("/modern-freewar/img/icons/quest.png");
+}
+.framemenubg > div:first-child > a[href="profil.php"] {
+  background-image: url("/modern-freewar/img/icons/setting.png");
+}
+.framemenubg > div:first-child > a[href="friends.php"] {
+  background-image: url("/modern-freewar/img/icons/friends.png");
+}
+.framemenubg > div:first-child > a[href="extendedmenu.php"] {
+  background-image: url("/modern-freewar/img/icons/menu.png");
+}
+
 /*# sourceMappingURL=style.css.map */

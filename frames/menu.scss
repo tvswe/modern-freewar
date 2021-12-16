@@ -1,0 +1,48 @@
+.framemenubg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+
+  > div:first-child {
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+
+    > a {
+      width: 40px;
+      height: 40px;
+      display: block;
+      background: transparent none no-repeat center center;
+      color: transparent;
+      border: 1px solid black;
+      border-radius: 3px;
+      margin: 1px;
+
+      &[href="menu.php?reload=true"] {
+        background-image: url("/modern-freewar/img/icons/reload.png");
+      }
+
+      &[href="statsmap.php"] {
+        background-image: url("/modern-freewar/img/icons/map.png");
+      }
+
+      &[href="quests.php"] {
+        background-image: url("/modern-freewar/img/icons/quest.png");
+      }
+
+      &[href="profil.php"] {
+        background-image: url("/modern-freewar/img/icons/setting.png");
+      }
+
+      &[href="friends.php"] {
+        background-image: url("/modern-freewar/img/icons/friends.png");
+      }
+
+      &[href="extendedmenu.php"] {
+        background-image: url("/modern-freewar/img/icons/menu.png");
+      }
+    }
+  }
+}
